@@ -143,16 +143,13 @@ h1 {
     color: rgb(86, 47, 47);
 }
 
-/* מדיה קוורי למכשירים עם רוחב של 600 פיקסלים או פחות */
 @media (max-width: 600px) {
     nav ul li {
         margin: 0 20px;
-        /* הקטנת המרחק בין הפריטים בתפריט */
     }
 
     .gallery {
         grid-template-columns: repeat(2, 1fr);
-        /* התאם את מספר העמודות בגלריה */
     }
 
     input,
