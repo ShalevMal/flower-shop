@@ -140,5 +140,49 @@ textarea {
 }
 
 h1 {
-    color: rgb(117, 64, 64);
+    color: rgb(86, 47, 47);
+}
+
+/* מדיה קוורי למכשירים עם רוחב של 600 פיקסלים או פחות */
+@media (max-width: 600px) {
+    nav ul li {
+        margin: 0 20px;
+        /* הקטנת המרחק בין הפריטים בתפריט */
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        /* התאם את מספר העמודות בגלריה */
+    }
+
+    input,
+    textarea {
+        width: 80%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .page3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
