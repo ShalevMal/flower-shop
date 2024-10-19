@@ -4,11 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flower shop</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
     <header>
         <nav>
             <ul>
@@ -19,24 +16,33 @@
             </ul>
         </nav>
     </header>
+</head>
 
-    <main class="page3">
+<body>
+    <br>
 
-        <h1>Bloom Boutique</h1><br>
-        <p>
-            Welcome to Bloom Boutique! <br>
-            Where we bring the beauty of nature into your home! <br>
-            Our selection of fresh, hand-picked flowers is perfect for any occasion—whether it’s a celebration, a
-            special gift, simply to brighten your day. <br>
-            We pride ourselves on offering sustainable, high-quality blooms that add a touch of elegance and joy to
-            every moment."
-        </p>
-    </main>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
+
+
 
     <footer>
         <p> &copy; 2024 Flower Gallery. All rights reserved. </p>
     </footer>
-
 </body>
 
 </html>
